@@ -23,4 +23,4 @@ heroku logs --tail --app urls-analytics-workers
 
 heroku ps:scale web=2 --app urls-analytics-workers
 ```
-
+url: https://urls-analytics-workers.herokuapp.com/
