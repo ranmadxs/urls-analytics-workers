@@ -1,0 +1,17 @@
+spring.application.name: urlsln
+server.port: ${PORT:8080}
+
+springdoc.swagger-ui.path: /doc
+
+cloudkafka.topic: zrqvd1uc-default
+cloudkafka.brokers: moped-01.srvs.cloudkafka.com:9094,moped-02.srvs.cloudkafka.com:9094,moped-03.srvs.cloudkafka.com:9094
+cloudkafka.username: zrqvd1uc
+cloudkafka.password: PwqDc6LiaFgppeyrygMzSn5fbG9MK4Yt
+
+spring:
+  data:
+    mongodb:
+      uri: ${URL_DB:mongodb://localhost:27017/ml-db?retryWrites=true&w=majority}
+
+application.service: urls-ln
+application.version: @project.version@

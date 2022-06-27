@@ -1,0 +1,8 @@
+# Ignore everything
+**
+
+# Allow files and directories
+!/application
+!/dependencies
+!/snapshot-dependencies
+!/spring-boot-loader
