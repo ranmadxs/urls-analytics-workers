@@ -1,7 +1,7 @@
 spring.application.name: urlsln
 server.port: ${PORT:8080}
 
-springdoc.swagger-ui.path: /doc
+springdoc.swagger-ui.path: /
 
 cloudkafka.topic: zrqvd1uc-default
 cloudkafka.brokers: moped-01.srvs.cloudkafka.com:9094,moped-02.srvs.cloudkafka.com:9094,moped-03.srvs.cloudkafka.com:9094

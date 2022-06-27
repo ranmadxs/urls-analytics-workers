@@ -16,12 +16,12 @@ public class SwaggerConfig {
 	@Bean
 	public OpenAPI openAPI(@Value("${application.version}") String appVersion) {
 		return new OpenAPI()
-				.info(new Info().title("Urls-ln")
-						.description("Microservicio para redireccionar urlshortener a url base original, tambien notifica eventos estadísticos.")
+				.info(new Info().title("urls-analytics-workers")
+						.description("Microservicio que efectúa cálculos y consolidación de estadísticas analíticas de los “urlshortener.")
 						.version(appVersion)
 						.termsOfService("http://codmind.com/terms")
 						.contact(new Contact().name("Admin").url("#").email("grineldosanchez@yahoo.es"))
-						.license(new License().name("Esanchezd").url("www.hroku......xxxx"))
+						.license(new License().name("Esanchezd").url("https://urls-analytics-workers.herokuapp.com/"))
 						.extensions(Collections.emptyMap())
 				);
 	}
